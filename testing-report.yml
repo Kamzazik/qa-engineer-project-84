@@ -13,7 +13,7 @@
   
 - summary: |  
     Изменение язака интерфейса
-  status: pass
+  status: fail
 
 - summary: |  
     Проверка фильтра "Search"
@@ -34,4 +34,5 @@
 
 - summary: |
     Проверка фильтра "Price"
-  
+  status: fail
+
