@@ -1,0 +1,57 @@
+---
+test-cases:
+  - summary: |
+      Успешное добавление товара в корзину
+    status: pass
+    
+  - summary: |
+      Успешное оформление заказ
+    status: pass
+
+  - summary: |
+      Удаление товара из корзины
+    status: pass
+
+  - summary: |
+      Изменение языка интерфейса
+    status: fail
+
+  - summary: |
+      Проверка фильтра "Search"
+    status: pass
+
+  - summary: |
+      Проверка фильтра "Category"
+    status: pass
+
+  - summary: |
+      Проверка фильтра "Brand"
+    status: pass
+
+  - summary: |
+      Проверка фильтра "In Stock"
+    status: fail
+    
+  - summary: |  
+      Проверка фильтра "Price"
+    status: fail
+
+  - summary: |
+      Проверить вид главной страницы магазина
+    status: pass
+
+  - summary: |
+      Проверить вид главной страницы магазина при смене на другой язык
+    status: pass
+
+  - summary: |
+      Проверить функционал перелистывания страниц с карточками товаров
+    status: pass
+
+  - summary: |
+      Проверка адаптивности главной страницы сайта
+    status: pass
+
+  - summary: |
+      Проверка адаптивности страницы корзины сайта
+    status: pass
