@@ -86,7 +86,7 @@
 
 - summary: |
     Страница корзины сайта плохо адаптирована под разные разрешения экрана
-   environment: |  
+  environment: |  
     Yandex 25.8.3.824 (64-bit)
     Mozilla Firefox 143.0.1 (64-разрядный)
   expected-result: |
