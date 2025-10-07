@@ -233,7 +233,7 @@
     empty
   steps: 
     - Нажать на кнопку "Clear cart"
- expected-result: |
+  expected-result: |
     Товары, находившееся в корзине, были удалены
 
 - summary: |
