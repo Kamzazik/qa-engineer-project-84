@@ -8,9 +8,9 @@ test-cases:
        Успешное оформление заказ
      status: pass
 
-  - summary: |
-      Удаление товара из корзины
-    status: pass
+   - summary: |
+       Удаление товара из корзины
+     status: pass
 
   - summary: |
       Проверка фильтра "Search"
@@ -57,15 +57,15 @@ test-cases:
     status: pass
 
   - summary: |
-    Добавление нескольких одинаковых товаров в корзину
-  status: pass
+      Добавление нескольких одинаковых товаров в корзину
+    status: pass
+
+  - summary: |
+      Очистка корзины
+    status: pass
 
 - summary: |
-    Очистка корзины
-  status: pass
-
-- summary: |
-    Выход со страницы на главную, и продолжнеие покупок
+    Выход со страницы на главную, и продолжеyие покупок
   status: pass
 
 - summary: |
@@ -95,7 +95,7 @@ bugreports:
       Yandex 25.8.3.824 (64-bit)
       Mozilla Firefox 143.0.1 (64-разрядный)
     steps-to-reproduce: |
-      1. Отурыть страницу https://products-store-v2-ru.hexlet.app/
+      1. Открыть страницу https://products-store-v2-ru.hexlet.app/
       2. В навигационной панели в верхнем правом углу, нажать "Store"
     expected-result: |
       Страница должна открыться без перезагрузки 
