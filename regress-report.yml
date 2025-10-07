@@ -64,29 +64,29 @@ test-cases:
       Очистка корзины
     status: pass
 
-- summary: |
-    Выход со страницы на главную, и продолжеyие покупок
-  status: pass
+  - summary: |
+      Выход со страницы на главную, и продолжеyие покупок
+    status: pass
 
-- summary: |
-    Добавление нескольких разных товаров в корзину
-  status: pass
+  - summary: |
+      Добавление нескольких разных товаров в корзину
+    status: pass
 
-- summary: |
-    Проверка страницы товара
-  status: pass
+  - summary: |
+      Проверка страницы товара
+    status: pass
 
-- summary: |
-    Проверка хэштега на странице товара
-  status: pass
+  - summary: |
+      Проверка хэштега на странице товара
+    status: pass
 
-- summary: |
-    Ввод в строку поиска некорректных данных
-  status: pass
+  - summary: |
+      Ввод в строку поиска некорректных данных
+    status: pass
 
-- summary: |
-    Ввод в фильтр цены не корректных данных
-  status: pass
+  - summary: |
+      Ввод в фильтр цены не корректных данных
+    status: pass
 
 bugreports:
   - summary: |
