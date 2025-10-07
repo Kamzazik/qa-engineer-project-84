@@ -89,4 +89,4 @@
 
 - summary: |
     Ввод в фильтр цены не корректных данных
-  status:pass
+  status: pass
