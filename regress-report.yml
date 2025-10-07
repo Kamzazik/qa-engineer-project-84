@@ -1,20 +1,16 @@
 ---
 test-cases:
-  - summary: |
-      Успешное добавление товара в корзину
-    status: pass
+   - summary: |
+       Успешное добавление товара в корзину
+     status: pass
     
-  - summary: |
-      Успешное оформление заказ
-    status: pass
+   - summary: |
+       Успешное оформление заказ
+     status: pass
 
   - summary: |
       Удаление товара из корзины
     status: pass
-
-  - summary: |
-      Изменение языка интерфейса
-    status: fail
 
   - summary: |
       Проверка фильтра "Search"
@@ -41,9 +37,13 @@ test-cases:
     status: pass
 
   - summary: |
-      Проверить вид главной страницы магазина при смене на другой язык
-    status: pass
+      Проверить вид сайта при смене на русский язык
+    status: fail
 
+  - summary: |
+      Проверить вид сайта при смене на английский язык
+    status: pass
+    
   - summary: |
       Проверить функционал перелистывания страниц с карточками товаров
     status: pass
@@ -55,6 +55,38 @@ test-cases:
   - summary: |
       Проверка адаптивности страницы корзины сайта
     status: pass
+
+  - summary: |
+    Добавление нескольких одинаковых товаров в корзину
+  status: pass
+
+- summary: |
+    Очистка корзины
+  status: pass
+
+- summary: |
+    Выход со страницы на главную, и продолжнеие покупок
+  status: pass
+
+- summary: |
+    Добавление нескольких разных товаров в корзину
+  status: pass
+
+- summary: |
+    Проверка страницы товара
+  status: pass
+
+- summary: |
+    Проверка хэштега на странице товара
+  status: pass
+
+- summary: |
+    Ввод в строку поиска некорректных данных
+  status: pass
+
+- summary: |
+    Ввод в фильтр цены не корректных данных
+  status: pass
 
 bugreports:
   - summary: |
