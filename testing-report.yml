@@ -10,10 +10,6 @@
 - summary: |     
     Удаление товара из корзины
   status: pass
-  
-- summary: |  
-    Изменение язака интерфейса
-  status: fail
 
 - summary: |  
     Проверка фильтра "Search"
