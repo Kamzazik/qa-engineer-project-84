@@ -1,16 +1,16 @@
 ---
 test-cases:
-   - summary: |
-       Успешное добавление товара в корзину
-     status: pass
+  - summary: |
+      Успешное добавление товара в корзину
+    status: pass
     
-   - summary: |
-       Успешное оформление заказ
-     status: pass
+  - summary: |
+      Успешное оформление заказ
+    status: pass
 
-   - summary: |
-       Удаление товара из корзины
-     status: pass
+  - summary: |
+      Удаление товара из корзины
+    status: pass
 
   - summary: |
       Проверка фильтра "Search"
