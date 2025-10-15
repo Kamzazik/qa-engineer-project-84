@@ -88,9 +88,9 @@ test-cases:
       Ввод в фильтр цены не корректных данных
     status: pass
     
-- summary: | 
-    Проверка страницы каталога товаров
-  status: fail
+  - summary: | 
+      Проверка страницы каталога товаров
+    status: fail
   
 bugreports:
   - summary: |
